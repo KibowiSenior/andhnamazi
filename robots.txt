@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /logs/
+
+# Allow Google and Bing to crawl everything else
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://andhnamazi.in/sitemap.xml
+
+# Crawl-delay to be gentle on the server (optional)
+Crawl-delay: 1
+
+# Host directive (optional)
+Host: https://andhnamazi.in
