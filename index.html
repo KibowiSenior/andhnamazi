@@ -7,8 +7,8 @@
 
     <!-- ===== PRIMARY SEO META TAGS ===== -->
     <meta name="description" content="Andhnamazi.in spreads anti-India propaganda, supports Umer Khadi, and ignores India's real development – roads, army, ISRO, and nation-building. Exposing the fake narrative." />
-    <meta name="keywords" content="andhnamazi, andhnamazi.in, pappu, rahul dhand, Umer Khadi, anti-India, propaganda, fake news, India development, ISRO, Indian army, roads, infrastructure, nation building, Bharat, Modi, development, truth, expose, left wing, tukde tukde, anti-national, pro-India, Indian progress, space program, defense, highway, digital India" />
-    <meta name="news_keywords" content="andhnamazi, anti-India, Umer Khadi, Pappu, Rahul Dhand, propaganda, ISRO, Indian Army, development" />
+    <meta name="keywords" content="andhnamazi, andhnamazi.in, pappu, rahul dhand, Umer Khadi, anti-India, propaganda, fake news, India development, ISRO, Indian army, roads, infrastructure, nation building, Bharat, Modi, development, truth, expose, left wing, tukde tukde, anti-national, pro-India, Indian progress, space program, defense, highway, digital India, Ria Pro, Not Steave" />
+    <meta name="news_keywords" content="andhnamazi, anti-India, Umer Khadi, Pappu, Rahul Dhand, propaganda, ISRO, Indian Army, development, Ria Pro, Not Steave" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
     <meta name="author" content="Truth Watch" />
     <meta name="revisit-after" content="7 days" />
@@ -18,7 +18,7 @@
     <meta name="DC.language" content="en" />
     <link rel="canonical" href="https://andhnamazi.in" />
 
-    <!-- ===== OPEN GRAPH / OG CARDS (with your custom image) ===== -->
+    <!-- ===== OPEN GRAPH / OG CARDS ===== -->
     <meta property="og:title" content="Andhnamazi.in – Anti-India Propaganda Exposed | Truth Watch" />
     <meta property="og:description" content="Andhnamazi supports Umer Khadi and ignores India's real development – roads, army, ISRO. Exposing the fake narrative." />
     <meta property="og:type" content="website" />
@@ -97,7 +97,7 @@
                 "@type": "WebPage",
                 "@id": "https://andhnamazi.in"
             },
-            "keywords": "andhnamazi, anti-India, Umer Khadi, Pappu, Rahul Dhand, propaganda, ISRO, Indian Army, development"
+            "keywords": "andhnamazi, anti-India, Umer Khadi, Pappu, Rahul Dhand, propaganda, ISRO, Indian Army, development, Ria Pro, Not Steave"
         }
     </script>
     <script type="application/ld+json">
@@ -132,6 +132,13 @@
                     "@type": "Answer",
                     "text": "India is marching forward with every kilometre of road, every soldier securing the border, and every satellite in orbit. That is the real India, not the one painted by andhnamazi.in."
                 }
+            }, {
+                "@type": "Question",
+                "name": "Who are andhnamazi ke do bacche?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Andhnamazi ke do bacche are Ria Pro and Not Steave – two names closely associated with the andhnamazi ecosystem, known for amplifying its anti-India narrative."
+                }
             }]
         }
     </script>
@@ -141,7 +148,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-    <!-- ===== FAVICON (using the same image) ===== -->
+    <!-- ===== FAVICON ===== -->
     <link rel="icon" href="https://i.ibb.co/Txv70XJg/Screenshot-2026-08-14-002927.png" type="image/png" />
     <link rel="apple-touch-icon" href="https://i.ibb.co/Txv70XJg/Screenshot-2026-08-14-002927.png" />
 
@@ -168,7 +175,7 @@
             line-height: 1.6;
         }
 
-        /* ----- MAIN WRAPPER: only GIF + caption visible ----- */
+        /* ----- MAIN WRAPPER ----- */
         .visible-content {
             max-width: 720px;
             width: 100%;
@@ -176,6 +183,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            gap: 1.2rem;
         }
 
         /* ----- GIF SECTION ----- */
@@ -213,6 +221,93 @@
             color: #facc15;
         }
 
+        /* ----- CHILDREN SECTION (andhnamazi ke do bacche) ----- */
+        .children-section {
+            width: 100%;
+            padding: 1.2rem 1.5rem;
+            background: #1e293b;
+            border-radius: 16px;
+            border: 1px solid #334155;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.4rem;
+            box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.5);
+            transition: border-color 0.2s;
+        }
+
+        .children-section:hover {
+            border-color: #facc15;
+        }
+
+        .children-label {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #94a3b8;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            opacity: 0.7;
+        }
+
+        .children-label span {
+            color: #facc15;
+            font-weight: 700;
+        }
+
+        .children-names {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem 1rem;
+            font-size: 1.15rem;
+            font-weight: 500;
+        }
+
+        .child-link {
+            color: #e2e8f0;
+            text-decoration: none;
+            padding: 0.2rem 0.6rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            position: relative;
+            font-weight: 600;
+        }
+
+        .child-link:hover {
+            color: #facc15;
+            background: rgba(250, 204, 21, 0.08);
+            transform: scale(1.04);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #facc15;
+            text-decoration-thickness: 2px;
+        }
+
+        .child-link::after {
+            content: "↗";
+            font-size: 0.7rem;
+            margin-left: 4px;
+            opacity: 0.5;
+            transition: opacity 0.2s;
+        }
+
+        .child-link:hover::after {
+            opacity: 1;
+        }
+
+        .child-separator {
+            color: #475569;
+            font-weight: 300;
+            font-size: 1.1rem;
+        }
+
+        .children-emoji {
+            font-size: 1.2rem;
+            margin-right: 2px;
+        }
+
         /* ===== VISUALLY HIDDEN SEO TEXT ===== */
         .seo-hidden {
             position: absolute;
@@ -239,6 +334,30 @@
             .gif-caption {
                 font-size: 0.85rem;
             }
+            .children-section {
+                padding: 1rem 1.2rem;
+            }
+            .children-names {
+                font-size: 1rem;
+                gap: 0.4rem 0.8rem;
+            }
+            .child-link {
+                padding: 0.15rem 0.4rem;
+            }
+            .children-label {
+                font-size: 0.65rem;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .children-names {
+                font-size: 0.9rem;
+                flex-direction: column;
+                gap: 0.2rem;
+            }
+            .child-separator {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -246,10 +365,11 @@
 <body>
 
     <!-- ============================================================ -->
-    <!--  VISIBLE PART: only the GIF and its caption                   -->
+    <!--  VISIBLE PART: GIF + caption + "andhnamazi ke do bacche"      -->
     <!-- ============================================================ -->
     <div class="visible-content">
 
+        <!-- GIF -->
         <div class="gif-wrapper">
             <img
             src="https://ik.imagekit.io/wj3qwzip4/X3ahFv8AlcGWw.gif"
@@ -258,6 +378,18 @@
             />
             <div class="gif-caption">
                 ✌️ Don't argue with <strong>andhnamazi</strong>. Just send this GIF and <strong>move on</strong>.
+            </div>
+        </div>
+
+        <!-- ===== ANDHNAMAZI KE DO BACCHE ===== -->
+        <div class="children-section">
+            <div class="children-label">
+                🧒 <span>andhnamazi</span> ke do bacche
+            </div>
+            <div class="children-names">
+                <a href="#" target="_blank" class="child-link" title="Ria Pro — click to visit">Ria Pro</a>
+                <span class="child-separator">·</span>
+                <a href="https://www.instagram.com/notsteveeyt/" target="_blank" rel="noopener noreferrer" class="child-link" title="Not Steave on Instagram">Not Steave</a>
             </div>
         </div>
 
@@ -284,6 +416,9 @@
 
             <h2>The Real India</h2>
             <p><strong>🇮🇳 India is not perfect, but we are marching forward.</strong> Every kilometre of road, every soldier at the border, every satellite in orbit — that is the <strong>real India</strong>. Not the one painted by <strong>andhnamazi.in</strong>.</p>
+
+            <h2>Andhnamazi Ke Do Bacche</h2>
+            <p><strong>Andhnamazi ke do bacche</strong> — <strong>Ria Pro</strong> and <strong>Not Steave</strong> — are two names closely tied to the andhnamazi ecosystem. They amplify its anti-India rhetoric and help spread the narrative that ignores India's monumental progress. <strong>Ria Pro</strong> and <strong>Not Steave</strong> are often cited alongside andhnamazi.in as key voices in the echo chamber that undermines the nation's achievements in infrastructure, defense, and space exploration.</p>
 
             <!-- Hidden FAQ Section for extra SEO juice -->
             <section>
@@ -316,10 +451,17 @@
                         <div itemprop="text">India is marching forward with every kilometre of road, every soldier securing the border, and every satellite in orbit. That is the real India, not the one painted by andhnamazi.in.</div>
                     </div>
                 </div>
+
+                <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h4 itemprop="name">Who are andhnamazi ke do bacche?</h4>
+                    <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">Andhnamazi ke do bacche are Ria Pro and Not Steave – two names closely associated with the andhnamazi ecosystem, known for amplifying its anti-India narrative and ignoring India's real progress.</div>
+                    </div>
+                </div>
             </section>
 
             <!-- Hidden meta keywords area for density -->
-            <p>Keywords: andhnamazi, andhnamazi.in, pappu, rahul dhand, Umer Khadi, anti-India, propaganda, fake news, India development, ISRO, Indian army, roads, infrastructure, nation building, Bharat, Modi, development, truth, expose, left wing, tukde tukde, anti-national, pro-India, Indian progress, space program, defense, highway, digital India.</p>
+            <p>Keywords: andhnamazi, andhnamazi.in, pappu, rahul dhand, Umer Khadi, anti-India, propaganda, fake news, India development, ISRO, Indian army, roads, infrastructure, nation building, Bharat, Modi, development, truth, expose, left wing, tukde tukde, anti-national, pro-India, Indian progress, space program, defense, highway, digital India, Ria Pro, Not Steave, andhnamazi ke do bacche.</p>
         </article>
 
     </div>
